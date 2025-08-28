@@ -2,6 +2,13 @@
 Cool widgets and wodgets. 
 
 
+## Custom Pagination 
+*28 Aug 2025*
+
+Lightweight custom pagination for use with performant WordPress queries that use `'no_found_rows' => true`, which prevents WordPress from calculating the total number of posts for use in default pagination. 
+
+[custom-pagination.php](custom-pagination.php)
+
 
 ## Lightweight Query 
 *28 Aug 2025*
