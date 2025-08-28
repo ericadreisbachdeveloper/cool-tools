@@ -6,6 +6,10 @@ Cool widgets and wodgets.
 ## Lightweight Query 
 *28 Aug 2025*
 
+Use the power of WordPress query to output *just* a lightweight array of page IDs. Used this on [Robertshaw](https://www.robertshaw.com/), used this on [Bernie's Book Bank](https://www.berniesbookbank.org). 
+
+[lightweight-query.php](lightweight-query.php)
+
 
 ## Disable `wp_comments.php` Endpoints 
 *28 Aug 2025* 
