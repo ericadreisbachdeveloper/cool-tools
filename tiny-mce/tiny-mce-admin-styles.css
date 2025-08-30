@@ -1,0 +1,23 @@
+.highlight {
+    font-weight: 100;
+}
+
+
+.cite,
+cite>span
+
+/* cite > span for legacy implementation */
+    {
+    font-size: .9em;
+}
+
+
+
+/* Show sr-only content in editor for editing purposes */
+.sr-only::before {
+    content: "[SCREEN READER ONLY: ";
+}
+
+.sr-only::after {
+    content: "]";
+}

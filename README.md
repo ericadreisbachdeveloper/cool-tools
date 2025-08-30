@@ -2,6 +2,14 @@
 Cool widgets and wodgets. 
 
 
+## Custom Tiny MCE
+*29 Aug 2025* 
+
+Add custom buttons to the Tiny MCE editor when the defaults aren't enough. 
+
+[tiny-mce](tiny-mce)
+
+
 ## Custom Pagination 
 *28 Aug 2025*
 
