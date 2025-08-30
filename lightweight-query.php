@@ -1,15 +1,8 @@
 <?php 
 
 /* 
- * How to generate an example terms arrow for tax_query
+ * Output IDs
  */
-
-$this_cat_series = get_the_terms($the_id, 'category-series');
-
-
-foreach ($this_cat_series as $cat_series) {
-    $this_part_cat_series_ids [] = $cat_series->term_id;
-}
 
 $args = array(
     'no_found_rows' => true,
@@ -45,7 +38,8 @@ $args = array(
 $tax_query = new WP_Query($args);
 $tax_document_ids = $tax_query->posts;
 
+
 /* ... but is still available for a full post query */ 
 if ($tax_query->have_posts()) : while ($tax_query->have_posts()) : $tax_query->the_post();
-/* access the_title() access the_excerpt() &c. */ 
+/* access the_title(), access the_excerpt() &c. */ 
 endwhile; endif; wp_reset_postdata();
